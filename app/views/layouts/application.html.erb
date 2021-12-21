@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FertilityAlliance</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+
+  <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  <%= javascript_importmap_tags %>
+</head>
+
+<body>
+<section class="NavH_Super_Admin_Dashboard_Home">
+  <header>
+    <div class="container">
+      <div class="divv">
+        <nav class="menuv" style="--items: 5;">
+          <ul>
+            <li><%= image_tag("logo.png", {:alt => "rss feed" , :class => "logo", style:"margin-top: 5px;"}) %></li>
+            <li><a href=""><%= image_tag("round_home_white.png", {:alt => "rss feed" , :class => "image", style:"margin-top: 40px;"}) %></a></li>
+            <li><a href=""><%= image_tag("round_groups_white.png", {:alt => "rss feed" , :class => "image"}) %></a></li>
+            <li><a href=""><%= image_tag("round_format_list_bulleted_white.png", {:alt => "rss feed" , :class => "image"}) %></a></li>
+            <li><a href=""><%= image_tag("round_settings_white.png", {:alt => "rss feed" , :class => "image"}) %></a></li>
+            <li><%=link_to (image_tag("round_home_white.png", {:alt => "rss feed" , :class => "image", style:"margin-top: 40px;"})), "super_administrator/gpo_spend" %></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="divh">
+        <nav class="links" style="--items: 6;">
+          <%= link_to "GPO Revenue","super_administrator/gpo_revenue", method: :post %>
+          <%= link_to "GPO Spend","super_administrator/gpo_spend", method: :post %>
+          <%= link_to "Members`s Spend","super_administrator/members_spend", method: :post %>
+          <%= link_to "Members`s Source GCR","super_administrator/members_source_gcr", method: :post %>
+          <a></a>
+          <a></a>
+          <span class="line"></span>
+        </nav>
+      </div>
+      <div class="main" style="width: 70%">
+        <%= yield %>
+      </div>
+    </div>
+  </header>
+</section>
+</body>
+</html>

@@ -1,0 +1,32 @@
+
+
+
+<p class="rout">
+  <span style="color:#A6BF58">DASHBOARD</span>
+  <%= image_tag("round_chevron_right_black.png", {:alt => "rss feed", :class => "chevron"}) %>
+  <span style="color:#D0D1D2">GPO Revenue</span>
+</p>
+<div>
+  <p>
+    <%= image_tag("round_arrow_circle_right_white.png", {:alt => "rss feed", :class => "arrow"}) %>
+    <b class="t-large">GPO Revenue</b>
+    <span class="t-normal"></span>
+  </p>
+  <div class="container_chart">
+    <div class="title_char1">
+      <div>
+        <b>GPO Total Revenue, USD</b><%= image_tag("round_error_outline_black.png", {:alt => "rss feed", :class => "sign"}) %>
+
+        <%= line_chart SalesDatum.group_by_year(:Invoice_Date).sum(:GPO_Revenue) %>
+      </div>
+    </div>
+    <div class="title_char2">
+      <b>Month over Month</b><%= image_tag("round_error_outline_black.png", {:alt => "rss feed", :class => "sign"}) %>
+
+    </div>
+    <div calss="title_char3">
+      <b>Current Month</b><%= image_tag("round_error_outline_black.png", {:alt => "rss feed", :class => "sign"}) %>
+
+    </div>
+  </div>
+</div>

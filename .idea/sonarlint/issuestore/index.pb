@@ -1,0 +1,45 @@
+
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+S
+#app/javascript/packs/application.js,9\9\99cc6380f1c9eb8df5d3196ac74e2a76cf3fcf05
+@
+config/routes.rb,e\8\e801163eb9182955dca3eb9817d59af634f6665d
+P
+ app/models/application_record.rb,a\1\a1167d51039467f42565c78e85fc2e98815cec67
+I
+app/models/sales_datum.rb,8\d\8d3692f313979efadafb3e6681d9aa8c3172e8c9
+E
+config/application.rb,7\f\7ff7049c1c8745b54f0a9ef78996f60b38f36268
+9
+	bin/rails,b\3\b3ccab2c507ca3350b2f47e1ac22bf593b2b912e
+<
+lib/Data.csv,2\9\29b1a3b8a68dca65613a9fd45bbb1cd460ee34cc
+^
+.db/migrate/20211220014455_create_sales_data.rb,6\4\648d448a8d7abfe5bf5f49d97f58bc90f5552fd3
+E
+lib/tasks/import.rake,a\4\a4b2b13ba335ff64c6a77b6255eeed2a8d203c1d
+X
+(app/controllers/gpo_member_controller.rb,4\c\4c2507c6d75fda1cf3dd562b204ed53afc714308
+b
+2app/views/super_administrator/gpo_revenue.html.erb,6\9\69ad10225468ed19391bd59c5c20fa7bb016acfc
+`
+0app/views/super_administrator/gpo_spend.html.erb,b\4\b4f27c3399c73f8c84c30dc6192ab37c6f2f0bb8
+i
+9app/views/super_administrator/members_source_gcr.html.erb,b\8\b8c0fd098937947cd75c45114a1c42a1b602b899
+d
+4app/views/super_administrator/members_spend.html.erb,9\8\9815c72051049706a4a11d41bb97cc70cccf6c28
+Z
+*app/views/gpo_member/gcr_forecast.html.erb,4\5\458184432cb942325c30673c337720599f0719db
+]
+-app/views/gpo_member/qtd_gcr_history.html.erb,6\d\6db39614862d8816091a241030c257a7e7d5fd19
+c
+3app/views/gpo_member/qtd_source_compliance.html.erb,2\b\2b54d6728dae06f7c4b228b3c35f938c3a6d0dd4
+Y
+)app/views/gpo_member/total_spend.html.erb,a\6\a61c75c324f9b40759a470b21b3cb4a9544adfb8
+<
+db/schema.rb,2\c\2cda0c6171fa7d04989507a1dd112e34c40df46d
+9
+	yarn.lock,5\3\53585a096fe3a3b96321113856ae62602995a33b
+D
+config/webpacker.yml,9\9\9969a1bc546f416bd2c5df779036a147af6a7054

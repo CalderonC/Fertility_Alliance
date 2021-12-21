@@ -1,0 +1,2 @@
+class SalesDatum < ApplicationRecord
+end

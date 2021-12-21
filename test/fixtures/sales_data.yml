@@ -1,0 +1,63 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  File ID: MyString
+  File Record ID: 1
+  L01 Afltn Number: 1
+  L01 Afltn Name: MyString
+  Ship To Location Num: 1
+  Customer Number: 1
+  Customer Name: MyString
+  Address Txt: MyString
+  City: MyString
+  State: MyString
+  Zip: MyString
+  Dea Num: MyString
+  Cogs Mult Num: 
+  Contract Group Number: 1
+  Contract Group Name: MyString
+  Invoice Date: 2021-12-19
+  Invoice Number: 1
+  NDC: 1
+  Corporate Item Number: 1
+  Corporate Description: MyString
+  Supplier Number: 1
+  Supplier Name: MyString
+  Ship Qty: 
+  Ext Sell Dlr: 9.99
+  GPO Revenue: 9.99
+  GPO Member: MyString
+  Master Record Id: MyString
+  Source: MyString
+  SPx: MyString
+
+two:
+  File ID: MyString
+  File Record ID: 1
+  L01 Afltn Number: 1
+  L01 Afltn Name: MyString
+  Ship To Location Num: 1
+  Customer Number: 1
+  Customer Name: MyString
+  Address Txt: MyString
+  City: MyString
+  State: MyString
+  Zip: MyString
+  Dea Num: MyString
+  Cogs Mult Num: 
+  Contract Group Number: 1
+  Contract Group Name: MyString
+  Invoice Date: 2021-12-19
+  Invoice Number: 1
+  NDC: 1
+  Corporate Item Number: 1
+  Corporate Description: MyString
+  Supplier Number: 1
+  Supplier Name: MyString
+  Ship Qty: 
+  Ext Sell Dlr: 9.99
+  GPO Revenue: 9.99
+  GPO Member: MyString
+  Master Record Id: MyString
+  Source: MyString
+  SPx: MyString
